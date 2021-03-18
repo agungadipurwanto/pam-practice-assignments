@@ -1,14 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+
+import reportWebVitals from "./reportWebVitals";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
+import App from "./App";
+
+import UserProvider from "./utils/UserProvider";
 
 ReactDOM.render(
-  <React.StrictMode>
+  <UserProvider>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </UserProvider>,
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
