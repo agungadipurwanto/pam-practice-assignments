@@ -15,8 +15,8 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PAM_PRACTICE_ASSIGNMENTS }}'
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PWL_PRACTICE_ASSIGNMENTS }}'
           channelId: live
-          projectId: pam-practice-assignments
+          projectId: pwl-practice-assignments
         env:
           FIREBASE_CLI_PREVIEWS: hostingchannels
