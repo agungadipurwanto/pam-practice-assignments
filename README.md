@@ -1,70 +1,119 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/agungadipurwanto/pwl-practice-assignments">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Logo" width="80" height="80">
+  </a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h3 align="center">PWL Practice Assignments</h3>
 
-## Available Scripts
+  <p align="center">
+    Repository for All Advanced Web Programming's Practice Assignments
+    <br />
+    <br />
+    <a href="https://pwl-practice-assignments.web.app/">View Demo</a>
+    ·
+    <a href="https://github.com/agungadipurwanto/pwl-practice-assignments/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/agungadipurwanto/pwl-practice-assignments/issues">Request Feature</a>
+  </p>
+</p>
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
+  </ol>
+</details>
 
-### `yarn start`
+<!-- ABOUT THE PROJECT -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## About The Project
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This Repository only for all the Assignments of Advanced Web Programming.
 
-### `yarn test`
+### Built With
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [React JS](https://reactjs.org/)
+- [Bootstrap 5](https://getbootstrap.com/)
+- [Fontawesome Icons](https://fontawesome.com/icons)
+- [Firebase](https://firebase.google.com/)
 
-### `yarn build`
+<!-- GETTING STARTED -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+You need to install [Node Js](https://nodejs.org/en/) before you cloning the repository.
 
-### `yarn eject`
+- Firebase Tools
+  ```sh
+  npm install firebase-tools -g
+  ```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repo
+   ```sh
+   git clone https://github.com/agungadipurwanto/pwl-practice-assignments.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Create Firebase Project [https://firebase.google.com/](https://firebase.google.com/)
+4. Follow [This Instruction](https://firebase.google.com/docs/web/setup)
+5. Copy & Paste your Firebase Config into
+   ```sh
+   /src/firebaseConfig.json
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- USAGE EXAMPLES -->
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+<!-- LICENSE -->
 
-## Learn More
+## License
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Distributed under the MIT License. See `LICENSE` for more information.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- CONTACT -->
 
-### Code Splitting
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Agung Adi Purwanto - indonesianserver01@gmail.com
 
-### Analyzing the Bundle Size
+Project Link: [https://github.com/agungadipurwanto/pwl-practice-assignments](https://github.com/agungadipurwanto/pwl-practice-assignments)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Website Link: [https://pwl-practice-assignments.web.app/](https://pwl-practice-assignments.web.app/)
 
-### Making a Progressive Web App
+<!-- ACKNOWLEDGEMENTS -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Acknowledgements
 
-### Advanced Configuration
+- [Bootstrap](https://getbootstrap.com/)
+- [Firebase](https://firebase.google.com/)
+- [Font Awesome](https://fontawesome.com)
+- [Othneildrew](https://github.com/othneildrew/Best-README-Template)
+- [Popper JS](https://popper.js.org/)
+- [React JS](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
